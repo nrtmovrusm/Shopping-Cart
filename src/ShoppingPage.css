@@ -1,0 +1,40 @@
+img {
+    max-width: 30%;
+    max-height: 30%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.productsDisplay {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.productCard {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.ratingContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.productDesc {
+    margin-top: 10px;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.addToCart {
+    margin-top: 10px;
+}

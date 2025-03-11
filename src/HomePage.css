@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 60%;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: lightcoral;
+  padding: 0;
+}
